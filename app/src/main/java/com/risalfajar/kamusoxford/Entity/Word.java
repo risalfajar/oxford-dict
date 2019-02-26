@@ -1,36 +1,33 @@
 package com.risalfajar.kamusoxford.Entity;
 
+import java.util.ArrayList;
+
 public class Word {
-    String word;
+    String id;
     String origin;
-    LexicalEntry[] lexicalEntries;
-}
+    ArrayList<LexicalEntry> lexicalEntries;
 
-class LexicalEntry{
-    Entry[] entries;
-    String lexicalCategory;
-    Pronouncitation[] pronouncitations;
-    String text;
-}
+    public String getId() {
+        return id;
+    }
 
-class Entry{
-    String origin;
-    Sense[] senses;
-}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-class Sense{
-    String[] definitions;
-    String[] examples;
-    String[] shortDefinitions;
-    Subsense[] subsenses;
-}
+    public String getOrigin() {
+        return origin;
+    }
 
-class Subsense{
-    String[] definitions;
-    String[] examples;
-}
+    public void setOrigin(String origin) {
+        this.origin = origin;
+    }
 
-class Pronouncitation{
-    String audioURL;
-    String[] dialects;
+    public ArrayList<LexicalEntry> getLexicalEntries() {
+        return lexicalEntries;
+    }
+
+    public void setLexicalEntries(ArrayList<LexicalEntry> lexicalEntries) {
+        this.lexicalEntries = lexicalEntries;
+    }
 }
