@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
+        android:id="@+id/tv_word"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/item_word_padding"
@@ -12,6 +13,6 @@
         android:textSize="16sp"
         android:textColor="@color/black"
         tools:text="Word Sample"
-        android:text="AAA"/>
+        />
 
 </LinearLayout>

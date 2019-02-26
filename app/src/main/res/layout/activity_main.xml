@@ -68,14 +68,14 @@
         card_view:contentPaddingTop="@dimen/item_word_padding">
 
         <TextView
-            android:id="@+id/tv_search_results"
+            android:id="@+id/tv_search_message"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="@dimen/item_word_padding"
             android:paddingBottom="@dimen/item_word_padding"
             android:textAlignment="center"
             android:textSize="22sp"
-            tools:text="No Results" />
+            tools:text="No results" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_search_results"
