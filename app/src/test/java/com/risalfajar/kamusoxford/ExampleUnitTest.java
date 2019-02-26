@@ -1,4 +1,4 @@
-package com.example.kamusoxford;
+package com.risalfajar.kamusoxford;
 
 import org.junit.Test;
 

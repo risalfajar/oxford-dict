@@ -1,4 +1,4 @@
-package com.example.kamusoxford;
+package com.risalfajar.kamusoxford;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
