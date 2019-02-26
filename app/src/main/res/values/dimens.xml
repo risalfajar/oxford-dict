@@ -2,5 +2,6 @@
 <resources>
     <dimen name="horizontal_padding">16dp</dimen>
     <dimen name="item_word_padding">8dp</dimen>
+    <dimen name="title_vertical_padding">8dp</dimen>
     <dimen name="search_bar_padding">16dp</dimen>
 </resources>
